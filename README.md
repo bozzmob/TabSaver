@@ -1,3 +1,3 @@
-# SaveTabs
+# Tab Saver
 
-This chrome extension helps you save all/current tabs, to help you continue from where you left.
+This Firefox/Chrome extension helps you save all/current tabs, to help you continue from where you left.

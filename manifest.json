@@ -1,13 +1,13 @@
 {
-    "name": "saveTabs",
-    "version": "1.1.1",
-    "description": "save your tabs",
+    "name": "TabSaver",
+    "version": "1.0.0",
+    "description": "Save your Tabs",
     "permissions": [
         "tabs",
         "storage"
     ],
     "browser_action": {
-        "default_title": "save_tabs",
+        "default_title": "TabSaver",
         "default_popup": "popup.html"
     },
     "manifest_version": 2,
