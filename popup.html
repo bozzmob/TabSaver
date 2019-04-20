@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <script src="popup.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+  <style>
+    ul li {
+      list-style-type: none;
+      font-size: 16px;
+      padding: 2px 0px;
+    }
+    ul li:hover {
+      font-size: 20px;
+    }
+    button {
+      background-color: grey;
+      border: none;
+      color: white;
+      width: 160px;
+      height: 42px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px;
+      border-radius: 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+    button {
+      background-color: white; 
+      color: black; 
+      border: 2px solid grey;
+    }
+    button:hover {
+      background-color: grey;
+      color: white;
+    }
+    input {
+      width: 160px;
+      margin: 4px;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    img {
+      padding: 0px 4px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body style="width: 400px">
+  <input id="title" placeholder="Title"></input>
+  <input id="password" type="password" placeholder="Password"></input>
+  <br>
+  <button id="saveAll" class="button btn">Save All Tabs</button>
+  <button id="saveCurrent" class="button btn">Save Current Tab</button>
+  <ul id="list"></ul>
+</body>
+
+</html>
